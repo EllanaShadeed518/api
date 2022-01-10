@@ -1,0 +1,41 @@
+.content{
+    
+        width: 30%;
+        height: 400px;
+        background-color:  white;
+        margin: 170px auto;
+        border: 1px solid black;
+        border-radius: 2%;
+    
+}
+body{
+    background-color: royalblue;
+}
+.u{
+    color: red;
+    
+    text-transform:uppercase;
+    
+}
+.w{
+    color:black;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-transform:capitalize;
+    
+}
+.o{
+    width: 10px;
+    height: 10px;
+}
+.y{
+    
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+    
+}
