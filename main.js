@@ -15,13 +15,15 @@ console.log(data);
         res1 += `
         <div class="y">
            <h2 class="u" > city name: ${data.location.name}</h2> 
-           <img alt="image" src=" ${data.current.condition.icon}"/> 
+         
+           <img alt="image" src="https:${data.current.condition.icon}"/> 
         
         </div>
            <hr>
         
     
 `;
+console.log(data.current.condition.icon);
 
         res2 += `<h3 class="w"> Temp c : ${data.current.temp_c}</h3> 
                     <h3 class="w"> Temp f : ${data.current.temp_f} </h3> 
